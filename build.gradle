@@ -15,6 +15,7 @@ buildscript {
 allprojects {
     repositories {
         jcenter()
+        maven { url "https://jitpack.io" }
     }
 }
 
@@ -35,4 +36,6 @@ project.ext {
     libSupportDesign = 'com.android.support:design:22.2.1'
 
     libButterKnife = 'com.jakewharton:butterknife:7.0.1'
+
+    libLog = 'com.github.orhanobut:logger:1.12'
 }

@@ -24,4 +24,5 @@ dependencies {
     compile libSupportV7
     compile libSupportDesign
     compile libButterKnife
+    compile libLog
 }
